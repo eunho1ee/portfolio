@@ -208,9 +208,14 @@
             <span class="ml-auto font-mono text-[11px] text-slate-500">marketer.dashboard</span>
           </div>
 
-          <div id="profile-photo" class="relative aspect-[3/4] rounded-xl overflow-hidden ring-1 ring-line bg-gradient-to-b from-navy-800 to-navy-950">
-            <img src="uploads/0927-16-이은호-removebg-preview.png" alt="이은호 프로필"
-              class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[90%] object-contain object-bottom" />
+          <!-- 프로필 placeholder -->
+          <!-- ▶ 프로필 사진 교체: 아래 div 내부를 <img src="..." class="w-full h-full object-cover"/> 로 변경 -->
+          <div id="profile-photo" class="relative aspect-[4/3] rounded-xl overflow-hidden ring-1 ring-line bg-gradient-to-br from-navy-800 to-navy-850 grid place-items-center">
+            <div class="text-center text-slate-500">
+              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="mx-auto mb-2 text-slate-600"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0116 0"/></svg>
+              <p class="text-xs font-mono">PROFILE PHOTO</p>
+              <p class="text-[10px] text-slate-600 mt-0.5">사진을 추가하세요</p>
+            </div>
             <span class="absolute top-3 left-3 rounded-md bg-navy-950/80 px-2 py-1 text-[10px] font-mono text-emerald-bright ring-1 ring-emerald/30">● LIVE</span>
           </div>
 
